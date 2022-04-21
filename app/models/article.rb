@@ -6,4 +6,6 @@ class Article < ApplicationRecord
 
     scope :alphabetical, -> { order('title') }
     scope :active, -> { where('active = ?', true) }
+
+    # hello miss helen uwuwuwuwuwuwuuwuwuuwuwuwuwuwuuwuwuwuw <3
 end
